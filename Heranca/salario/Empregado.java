@@ -1,5 +1,3 @@
-package Heranca.salario;
-
 public class Empregado {
     double salarioFixo;
 
