@@ -10,6 +10,13 @@ public class Quadrado extends Retangulo {
             throw new IllegalArgumentException("Lado deve ser maior ou igual a 0");
         }
         this.lado = lado;
+        this.altura = lado;
+        this.lado = lado;
+    }
+
+    @Override
+    public double area() {
+        return lado * lado;
     }
 
     public String toString() {
