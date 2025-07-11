@@ -13,6 +13,7 @@ public class Pedido {
             double valorPorItem = item.getQuantidade() * item.getProduto().obterPrecoLiquido();
             valorFinal += valorPorItem;
         }
-        return valorFinal + (valorFinal * percentualDesconto);
+        double desconto = valorFinal * (percentualDesconto / 100);
+        return valorFinal - desconto;
     }
 }
