@@ -1,7 +1,7 @@
 public class Program {
     public static void main(String[] args) {
-        PersonagemJava personagem1 = new PersonagemJava();
-        PersonagemJava personagem2 = new PersonagemJava();
+        PersonagemGame personagem1 = new PersonagemGame();
+        PersonagemGame personagem2 = new PersonagemGame();
 
         personagem1.nome = "Sonic";
         personagem1.saudeAtual = 10;
