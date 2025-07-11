@@ -27,7 +27,7 @@ public class PersonagemGame {
     }
 
     public void setNome(String novoNome) {
-        if(nome != null && nome != "") {
+        if(novoNome != null && novoNome != "") {
             this.nome = novoNome;
         }
     }
