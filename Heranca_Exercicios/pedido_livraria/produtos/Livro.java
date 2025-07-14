@@ -7,7 +7,7 @@ public class Livro extends Produto {
 
     @Override
     public double obterPrecoLiquido() {
-        return this.precoBruto;
+       return this.precoBruto * 1.15;
     }
 
     public Livro(String titulo, int ano, String pais, double precoBruto, int paginas, String autor, int edicao) {
